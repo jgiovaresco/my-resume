@@ -1,0 +1,303 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resume xmlns="http://www.giovaresco.fr/resume" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:schemaLocation="http://www.giovaresco.fr/resume resume.xsd ">
+	<personal>
+		<firstname>Julien</firstname>
+		<lastname>Giovaresco</lastname>
+		<address>
+			<street>16 rue Saint Exupéry</street>
+			<zipcode>38400</zipcode>
+			<city>Saint Martin d'Hères</city>
+			<country>France</country>
+		</address>
+		<phone>+339 54 87 86 31</phone>
+		<mobile>+336 26 48 84 39</mobile>
+		<email>julien@giovaresco.fr</email>
+		<email_www>contactme@giovaresco.fr</email_www>
+		<webAddress>
+			<www name="julien.giovaresco.fr" type="homepage" url="julien.giovaresco.fr"/>
+			<www name="Github" type="github" url="www.github.com/jgiovaresco"/>
+			<www name="LinkedIn" type="linkedin" url="www.linkedin.com/profile/view?id=16726598"/>
+		</webAddress>
+		<comment>Célibataire - 30ans - permis B</comment>
+	</personal>
+	<title>
+		<profession>Ingénieur logiciel</profession>
+		<presentation>
+			Passionné par le développement logiciel, je pratique cette discipline depuis 7 ans. Curieux, j'interviens sur des domaines variés : front-end,
+			back-end, architecture, méthodologie, administration système.
+			<newline/>
+			Etant toujours en quête de meilleurs outils et de meilleures méthodes pour être plus efficace, j'aime apprendre, échanger et travailler avec
+			d'autres professionnels passionnés
+		</presentation>
+	</title>
+	<educations>
+		<education>
+			<year>2007</year>
+			<certificate>Ingénieur Réseaux Informatique et Communications Multimédia</certificate>
+			<speciality>Spécialité Réseaux</speciality>
+			<school>
+				<title>Polytech'Grenoble</title>
+				<www>www.polytech-grenoble.fr</www>
+			</school>
+		</education>
+		<education>
+			<year>2004</year>
+			<certificate>DEUG MIAS (Maths et Informatique Appliquées aux Sciences)</certificate>
+			<school>
+				<title>Université Joseph Fourrier</title>
+				<www>www.ujf-grenoble.fr</www>
+				<city>Grenoble</city>
+			</school>
+		</education>
+	</educations>
+	<trainings>
+		<training>
+			<year>2015</year>
+			<title>AngularJs</title>
+			<organization>
+				<title>MethoTIC Conseil</title>
+				<www>http://www.methotic.com/formation-angularjs</www>
+			</organization>
+		</training>
+		<training>
+			<year>2014</year>
+			<title>Oracle Certified Professional, Java SE 6 Programmer</title>
+		</training>
+		<training>
+			<year>2011</year>
+			<title>Java optimisation</title>
+			<organization>
+				<title>Bull Formation</title>
+				<www>www.bull-formation.com</www>
+			</organization>
+		</training>
+		<training>
+			<year>2010</year>
+			<title>Web services</title>
+			<organization>
+				<title>Bull Formation</title>
+				<www>www.bull-formation.com</www>
+			</organization>
+		</training>
+	</trainings>
+	<experiences>
+		<experience>
+			<year>Depuis 2007</year>
+			<title>Ingénieur logiciel</title>
+			<company>
+				<title>Bull</title>
+				<www>www.bull.com</www>
+			</company>
+			<description>
+				Missions :
+				<list>
+					<item>Conception et développement d'applications pour le compte de Pôle Emploi.</item>
+					<item>Conseil, accompagnement, définition des bonnes pratiques pour le développement d'application avec AngularJS</item>
+				</list>
+				Responsabilités au sein de l'équipe
+				<list>
+					<item>Architecture, conception et développement</item>
+					<item>Référent technique</item>
+					<item>Mise en place de méthodes XP : intégration continue, automatisation de tests, TDD</item>
+				</list>
+				Environnement
+				<list>
+					<item>Agile avec SCRUM</item>
+					<item>Compétences : Java, Javascript, HTML5/CSS3, Subversion, GIT, Maven, Weblogic</item>
+					<item>Frameworks : Spring, Jersey, Axis2, AngularJS</item>
+				</list>
+			</description>
+			<missions>
+				<mission>
+					<title>Framework PN NG</title>
+					<competences>AngularJS, Javascript, REST, GulpJS</competences>
+					<responsibility>Architecture, Conception, Développement, Conseil</responsibility>
+					<detail>
+						Pole Emploi veut proposer une nouvelle stack technique pour le développement de ses applications basée sur AngularJS
+						<newline/>
+						La mission porte sur
+						<list>
+							<item>la définition des bonnes pratiques pour le développement d'application avec AngularJS</item>
+							<item>l'étude et la mise en oeuvre de services communs aux applications (gestion des logs, de la métrologie, authentification,
+								...)
+							</item>
+						</list>
+					</detail>
+				</mission>
+				<mission>
+					<title>IDFIX</title>
+					<competences>REST, Java, Spring, Jersey, Maven, Weblogic</competences>
+					<responsibility>Architecture, Conception, Développement, Tests</responsibility>
+					<detail>
+						Il s'agit de l'interface d'administration des applications créées avec le framework interne de Pôle Emploi. IDFIX permet de modifier à
+						chaud des paramètres de configuration des applications déployées.
+						<newline/>
+						Lors de leur démarrage les applications s'abonnent à un service d'administration permettant à IDFIX de
+						<list>
+							<item>notifier chaque instance du cluster d'une application avec les nouvelles valeurs des paramètres.</item>
+							<item>déclencher la purge des caches de l'application.</item>
+						</list>
+					</detail>
+				</mission>
+				<mission>
+					<title>Bureau Métier</title>
+					<competences>Java, Spring, HTML/CSS, EHCache, Javascript (Prototype, Liveconnect), Maven, Weblogic</competences>
+					<responsibility>Architecture, Conception, Développement, Tests</responsibility>
+					<detail>
+						Le Bureau Métier est un portail permettant aux agents du Pôle Emploi d'accéder à leurs applications. L'application est utilisée
+						quotidiennement par les 45 000 agents du Pôle Emploi. Les fonctionnalités de cette application sont
+						<list>
+							<item>présenter à l'agent les applications auxquelles il est habilité.</item>
+							<item>gérer les lancements des applications utilisant les différentes versions du framework interne du Pôle Emploi.</item>
+							<item>fournir une fonction d'impression pour toutes applications lancées par le Bureau Métier.</item>
+							<item>gérer une liaison inter-applications masquant à l'utilisateur le changement d'application lorsqu'il effectue un acte métier.
+							</item>
+						</list>
+					</detail>
+				</mission>
+				<mission>
+					<title>Serveur de notification DISI.</title>
+					<competences>Java, Spring, HTML/CSS, Maven, Weblogic</competences>
+					<responsibility>Architecture, Conception, Développement, Tests</responsibility>
+					<detail>
+						Le serveur de notification reçoit des alertes sur l'état du SI pour les propager sur les postes des agents. Cela permet d'avertir ces
+						agents d'un dysfonctionnement d'une partie du SI, la hotline est ainsi désengorgée en termes de nombre d'appels et de temps d'attente.
+						<newline/>
+						Les messages d'alertes sont intégrés dans le Bureau Métier.
+					</detail>
+				</mission>
+				<mission>
+					<title>Frontal Annuaire</title>
+					<competences>Java, Spring, Axis2, Maven, Weblogic</competences>
+					<responsibility>Architecture, Conception, Développement, Tests</responsibility>
+					<detail>
+						Serveur composé d'un ensemble de WebServices permettant la gestion des annuaires LDAP de Pôle Emploi. Les webservices permettent
+						<list>
+							<item>aux 45 000 agents du Pôle Emploi de s'authentifier</item>
+							<item>un accès centralisé aux annuaires du Pôle Emploi pour les applications</item>
+							<item>l'automatisation des tâches de gestion des annuaires (création d'un nouvel agent, suppression, mutation d'un agent dans une
+								autre agence...)
+							</item>
+						</list>
+					</detail>
+				</mission>
+				<mission>
+					<title>Convertisseur XML</title>
+					<competences>Java, Xstream, Maven</competences>
+					<responsibility>Développement, Tests</responsibility>
+					<detail>
+						Librairie Java permettant la conversion XML vers Objet basé sur Xstream. Cette librairie a été développé pour pouvoir faire communiquer
+						les couches du framework interne du Pole Emploi. Basé sur Xstream, le convertisseur est configuré à l'aide d'un fichier XML généré par
+						de l'outillage maison de Pole Emploi.
+					</detail>
+				</mission>
+				<mission>
+					<title>Framework PN V4</title>
+					<competences>Java, Spring, JSF, AspectJ, EHCache, HTML/CSS, Javascript, Maven, Weblogic</competences>
+					<responsibility>Conception, Développement, Tests</responsibility>
+					<detail>
+						Le framework PNSLD (Présentation Navigation Services Logique et Données) a été créé pour cadrer les développements des applications chez
+						Pôle Emploi. Le framework doit pouvoir permettre le développement d'application pouvant supporter la charge des 45000 agents du Pôle
+						Emploi. La mission a porté sur la refonte des couches PN du framework basée sur JSF :
+						<list>
+							<item>
+								la couche Navigation permettant de gérer l'enchainement entre les différents écrans d'une application. Cette couche communique
+								avec la 2ème partie du framework (SLD).
+							</item>
+							<item>
+								une couche Présentation, basée sur JSF, permettant de modéliser les écrans de l'application. Avec cette couche, des composants
+								graphiques (arborescence, liste, histogrammes, ...) sont disponibles pour faciliter la vie du développeur.
+							</item>
+						</list>
+					</detail>
+				</mission>
+				<mission>
+					<title>Maintenance de l'application de la DGME Subventions en ligne.</title>
+					<competences>Java, HTML, PostgreSQL, Yourkit</competences>
+					<responsibility>Développement, Profiling</responsibility>
+					<detail>
+						Subventions en ligne est une application en ligne permettant la simplification des relations entre les administrations et les
+						associations. Le dispositif a une vocation interministérielle et s’adresse également aux financeurs publics tels que les collectivités
+						territoriales.
+						<newline/>
+						Un des intérêts de l’outil est de permettre aux associations de consulter un registre des subventions alimenté par les financeurs. Le
+						télé service couvre également les différentes étapes d’une procédure de demande de subvention : Saisie, Suivi, Dépôt, Recevabilité,
+						Instruction, Bilan.
+					</detail>
+				</mission>
+			</missions>
+		</experience>
+		<experience>
+			<year>2007</year>
+			<title>Stage de fin d'étude</title>
+			<company>
+				<title>Orange Business Services ITLabs</title>
+				<www>www.itlabs.fr.orange-business.com</www>
+			</company>
+			<description>
+				Enrichissement d'une solution de pilotage informatisé de radiocommunication numérique.
+			</description>
+			<missions>
+				<mission>
+					<title>Enrichissement d'une solution de pilotage informatisé de radiocommunication numérique.</title>
+					<competences>JavaEE, STRUTS, HTML, Javascript, XML</competences>
+				</mission>
+			</missions>
+		</experience>
+		<experience>
+			<year>2007</year>
+			<title>Vainqueur du concours pour ingénieurs juniors « Open World Challenge »</title>
+			<company>
+				<title>Bull</title>
+				<www>www.bull.com</www>
+			</company>
+			<description>Valorisation de l'infrastructure de notifications de Bonita.</description>
+			<missions>
+				<mission>
+					<title>Valorisation de l'infrastructure de notifications de Bonita.</title>
+					<competences>Serveur d'application JONAS, Workflow, Open source, struts, web services</competences>
+				</mission>
+			</missions>
+		</experience>
+	</experiences>
+	<skills>
+		<skill>
+			<type>Développement</type>
+			<value>Java, Javascript HTML/CSS, C++, PHP</value>
+		</skill>
+		<skill>
+			<type>Outils</type>
+			<value>Maven, Gradle, Jenkins, SonarQube, Yourkit, GruntJS, GulpJS, SVN, Git</value>
+		</skill>
+		<skill>
+			<type>Frameworks</type>
+			<value>Tapestry5, Spring, Jersey, Axis2, Prototype, AngularJS, Bootstrap</value>
+		</skill>
+		<skill>
+			<type>OS</type>
+			<value>Maitrise des OS GNU/Linux, Connaissances en administration système et réseau</value>
+		</skill>
+		<skill>
+			<type>Méthodologie</type>
+			<value>SCRUM, TDD</value>
+		</skill>
+		<skill>
+			<type>Base de données</type>
+			<value>Oracle, MySQL</value>
+		</skill>
+	</skills>
+	<hobbies>
+		<hobby>Aikido</hobby>
+		<hobby>Randonnée</hobby>
+		<hobby>Tir à l'arc</hobby>
+		<hobby>VTT</hobby>
+		<hobby>Crossfit</hobby>
+	</hobbies>
+	<languages>
+		<language>
+			<name>Anglais</name>
+			<level>lu, parlé, écrit (TOEIC 2006 : 830)</level>
+		</language>
+	</languages>
+</resume>

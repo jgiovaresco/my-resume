@@ -1,0 +1,233 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<schema xmlns="http://www.w3.org/2001/XMLSchema" targetNamespace="http://www.giovaresco.fr/resume"
+		xmlns:tns="http://www.giovaresco.fr/resume"
+		elementFormDefault="qualified">
+
+	<element name="resume" type="tns:ResumeType"/>
+
+	<complexType name="ResumeType">
+		<annotation>
+			<documentation>Defines a resume</documentation>
+		</annotation>
+		<sequence>
+			<element name="personal" type="tns:PersonalType"/>
+			<element name="title" type="tns:TitleType"/>
+			<element name="educations">
+				<complexType>
+					<sequence>
+						<element name="education" type="tns:EducationType" minOccurs="1" maxOccurs="unbounded"/>
+					</sequence>
+				</complexType>
+			</element>
+			<element name="trainings">
+				<complexType>
+					<sequence>
+						<element name="training" type="tns:TrainingType" minOccurs="0" maxOccurs="unbounded"/>
+					</sequence>
+				</complexType>
+			</element>
+			<element name="experiences">
+				<complexType>
+					<sequence>
+						<element name="experience" type="tns:ExperienceType" minOccurs="1" maxOccurs="unbounded"/>
+					</sequence>
+				</complexType>
+			</element>
+			<element name="skills">
+				<complexType>
+					<sequence>
+						<element name="skill" type="tns:SkillType" minOccurs="1" maxOccurs="unbounded"/>
+					</sequence>
+				</complexType>
+			</element>
+			<element ref="tns:hobbies"/>
+			<element name="languages">
+				<complexType>
+					<sequence>
+						<element name="language" type="tns:LanguageType" minOccurs="1" maxOccurs="unbounded"/>
+					</sequence>
+				</complexType>
+			</element>
+		</sequence>
+	</complexType>
+
+	<complexType name="PersonalType">
+		<annotation>
+			<documentation>Defines the personal information</documentation>
+		</annotation>
+		<sequence>
+			<element name="firstname" type="string" minOccurs="1" maxOccurs="1"/>
+			<element name="lastname" type="string" minOccurs="1" maxOccurs="1"/>
+			<element name="address" type="tns:AddressType" minOccurs="1" maxOccurs="1"/>
+			<element name="phone" type="string" minOccurs="0" maxOccurs="1"/>
+			<element name="mobile" type="string" minOccurs="0" maxOccurs="1"/>
+			<element name="email" type="string" minOccurs="0" maxOccurs="1"/>
+			<element name="email_www" type="string" minOccurs="0" maxOccurs="1"/>
+			<element name="webAddress">
+				<complexType>
+					<sequence>
+						<element name="www" type="tns:WebType" minOccurs="0" maxOccurs="unbounded"/>
+					</sequence>
+				</complexType>
+			</element>
+			<element name="comment" type="string" minOccurs="0" maxOccurs="1"/>
+		</sequence>
+	</complexType>
+
+	<complexType name="WebType">
+		<annotation>
+			<documentation>Defines a web address</documentation>
+		</annotation>
+		<attribute name="type">
+			<simpleType>
+				<restriction base="string">
+					<enumeration value="homepage"/>
+					<enumeration value="github"/>
+					<enumeration value="linkedin"/>
+				</restriction>
+			</simpleType>
+		</attribute>
+		<attribute name="url" type="string"/>
+		<attribute name="name" type="string"/>
+	</complexType>
+
+	<complexType name="AddressType">
+		<annotation>
+			<documentation>Defines an address</documentation>
+		</annotation>
+		<sequence>
+			<element name="street" type="string" minOccurs="1" maxOccurs="1"/>
+			<element name="zipcode" type="string" minOccurs="1" maxOccurs="1"/>
+			<element name="city" type="string" minOccurs="1" maxOccurs="1"/>
+			<element name="country" type="string" minOccurs="0" maxOccurs="1"/>
+		</sequence>
+	</complexType>
+
+	<complexType name="TitleType">
+		<annotation>
+			<documentation>Defines the title of the resume</documentation>
+		</annotation>
+		<sequence>
+			<element name="profession" type="string" minOccurs="1" maxOccurs="1"/>
+			<element name="presentation" type="tns:PresentationType" minOccurs="0" maxOccurs="1"/>
+			<element name="speciality" type="string" minOccurs="0" maxOccurs="1"/>
+		</sequence>
+	</complexType>
+
+	<complexType name="PresentationType" mixed="true">
+		<sequence>
+			<element name="newline" minOccurs="0" maxOccurs="unbounded"/>
+		</sequence>
+	</complexType>
+
+	<complexType name="EducationType">
+		<annotation>
+			<documentation>Defines an education entry</documentation>
+		</annotation>
+		<sequence>
+			<element name="year" type="string" minOccurs="1" maxOccurs="1"/>
+			<element name="certificate" type="string"/>
+			<element name="speciality" type="string" minOccurs="0" maxOccurs="1"/>
+			<element name="school" type="tns:OrganizationType"/>
+		</sequence>
+	</complexType>
+
+	<complexType name="OrganizationType">
+		<annotation>
+			<documentation>Defines an organization (school, company, ...)</documentation>
+		</annotation>
+		<sequence>
+			<element name="title" type="string"/>
+			<element name="www" type="string"/>
+			<element name="city" type="string" minOccurs="0" maxOccurs="1"/>
+		</sequence>
+	</complexType>
+
+	<complexType name="ExperienceType">
+		<annotation>
+			<documentation>Defines a job experience</documentation>
+		</annotation>
+		<sequence>
+			<element name="year" type="string"/>
+			<element name="title" type="string"/>
+			<element name="company" type="tns:OrganizationType"/>
+			<element name="description" type="tns:DetailType" minOccurs="0" />
+			<element name="missions">
+				<complexType>
+					<sequence>
+						<element name="mission" type="tns:MissionType" minOccurs="1" maxOccurs="unbounded"/>
+					</sequence>
+				</complexType>
+			</element>
+		</sequence>
+	</complexType>
+
+	<complexType name="MissionType">
+		<annotation>
+			<documentation>Defines a mission</documentation>
+		</annotation>
+		<sequence>
+			<element name="title" type="string"/>
+			<element name="competences" type="string"/>
+			<element name="responsibility" type="string" minOccurs="0" maxOccurs="1"/>
+			<element name="detail" type="tns:DetailType" minOccurs="0" maxOccurs="1" />
+		</sequence>
+	</complexType>
+
+	<complexType name="DetailType" mixed="true">
+		<sequence>
+			<element name="newline" minOccurs="0" maxOccurs="unbounded"/>
+			<element name="list" minOccurs="0" maxOccurs="unbounded">
+				<complexType>
+					<sequence>
+						<element name="item" minOccurs="0" maxOccurs="unbounded"/>
+					</sequence>
+				</complexType>
+			</element>
+		</sequence>
+	</complexType>
+
+	<complexType name="SkillType">
+		<annotation>
+			<documentation>Defines a skill</documentation>
+		</annotation>
+		<sequence>
+			<element name="type" type="string"/>
+			<element name="value" type="string"/>
+		</sequence>
+	</complexType>
+
+	<complexType name="TrainingType">
+		<annotation>
+			<documentation>Defines a training</documentation>
+		</annotation>
+		<sequence>
+			<element name="year" type="string"/>
+			<element name="title" type="string"/>
+			<element name="description" type="string" minOccurs="0" maxOccurs="1"/>
+			<element name="organization" type="tns:OrganizationType" minOccurs="0" maxOccurs="1"/>
+		</sequence>
+	</complexType>
+
+	<complexType name="LanguageType">
+		<annotation>
+			<documentation>Defines a language</documentation>
+		</annotation>
+		<sequence>
+			<element name="name" type="string"/>
+			<element name="level" type="string"/>
+		</sequence>
+	</complexType>
+
+	<!-- Hobbies -->
+	<element name="hobbies">
+		<annotation>
+			<documentation>Defines the hobbies</documentation>
+		</annotation>
+		<complexType>
+			<sequence>
+				<element name="hobby" type="string" maxOccurs="unbounded"/>
+			</sequence>
+		</complexType>
+	</element>
+</schema>
