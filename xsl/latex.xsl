@@ -10,9 +10,8 @@
 
 	<xsl:template match="/">
 \documentclass[a4paper,11pt,sans]{moderncv}
-\moderncvstyle{casual}                % style options are 'casual' (default), 'classic', 'oldstyle' and 'banking'        
-\moderncvcolor{blue}                  % color options 'blue' (default), 'orange', 'green', 'red', 'purple', 'grey' and 'black'                 
-\usepackage[utf8x]{inputenc}
+\moderncvstyle{casual}                             % style options are 'casual' (default), 'classic', 'banking', 'oldstyle' and 'fancy'
+\moderncvcolor{blue}                               % color options 'black', 'blue' (default), 'burgundy', 'green', 'grey', 'orange', 'purple' and 'red'
 \usepackage[top=1cm, bottom=2cm, left=0.5cm, right=0.5cm]{geometry}
 \setlength{\hintscolumnwidth}{2.5cm}
 <!--\nopagenumbers{}-->
