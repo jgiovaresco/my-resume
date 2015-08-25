@@ -138,7 +138,7 @@
 		</annotation>
 		<sequence>
 			<element name="title" type="string"/>
-			<element name="www" type="string"/>
+			<element name="www" type="string" minOccurs="0" maxOccurs="1"/>
 			<element name="city" type="string" minOccurs="0" maxOccurs="1"/>
 		</sequence>
 	</complexType>

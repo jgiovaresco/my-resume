@@ -63,13 +63,16 @@
 		<training>
 			<year>2014</year>
 			<title>Oracle Certified Professional, Java SE 6 Programmer</title>
+			<organization>
+				<title>Oracle</title>
+				<www>http://lc.cx/ZLkd</www>
+			</organization>
 		</training>
 		<training>
 			<year>2011</year>
 			<title>Java optimisation</title>
 			<organization>
 				<title>Bull Formation</title>
-				<www>www.bull-formation.com</www>
 			</organization>
 		</training>
 		<training>
@@ -77,7 +80,6 @@
 			<title>Web services</title>
 			<organization>
 				<title>Bull Formation</title>
-				<www>www.bull-formation.com</www>
 			</organization>
 		</training>
 	</trainings>

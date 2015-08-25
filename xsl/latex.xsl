@@ -15,6 +15,8 @@
 \usepackage[top=1cm, bottom=2cm, left=0.5cm, right=0.5cm]{geometry}
 \setlength{\hintscolumnwidth}{2.5cm}
 <!--\nopagenumbers{}-->
+\newcommand{\externalhref}[3][color1]{\href{#2}{\color{#1}{\textit{#3}}}}%
+
 <xsl:apply-templates select="cv:resume/cv:personal" />
 <xsl:apply-templates select="cv:resume/cv:title" />
 
@@ -60,7 +62,7 @@
 	<xsl:template match="cv:trainings">
 
 \section{Formations et Certifications}<xsl:for-each select="cv:training">
-\cventry{<xsl:value-of select="cv:year"/>}{<xsl:value-of select="cv:title"/>}{<xsl:value-of select="cv:organization/cv:title"/>}{}{}{}</xsl:for-each>
+\cventry{<xsl:value-of select="cv:year"/>}{<xsl:value-of select="cv:title"/>}{<xsl:value-of select="cv:organization/cv:title"/>}{}{}{<xsl:if test="cv:organization/cv:www != ''">\externalhref{<xsl:value-of select="cv:organization/cv:www"/>}{<xsl:value-of select="cv:organization/cv:www"/>}</xsl:if>}</xsl:for-each>
 	</xsl:template>
 
 	<!-- Professional experiences -->
