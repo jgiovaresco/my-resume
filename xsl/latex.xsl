@@ -12,9 +12,8 @@
 \documentclass[a4paper,11pt,sans]{moderncv}
 \moderncvstyle{casual}                             % style options are 'casual' (default), 'classic', 'banking', 'oldstyle' and 'fancy'
 \moderncvcolor{blue}                               % color options 'black', 'blue' (default), 'burgundy', 'green', 'grey', 'orange', 'purple' and 'red'
-\usepackage[top=1cm, bottom=2cm, left=0.5cm, right=0.5cm]{geometry}
-\setlength{\hintscolumnwidth}{2.5cm}
-<!--\nopagenumbers{}-->
+\usepackage[top=0.5cm, bottom=2cm, left=0.5cm, right=0.5cm]{geometry}
+
 \newcommand{\externalhref}[3][color1]{\href{#2}{\color{#1}{\textit{#3}}}}%
 
 <xsl:apply-templates select="cv:resume/cv:personal" />
@@ -33,6 +32,7 @@
 
 	<!-- Personal Informations -->
 	<xsl:template match="cv:personal">
+\photo[64pt][0.4pt]{myface.jpg}
 \name{<xsl:value-of select="cv:firstname" />}{<xsl:value-of select="cv:lastname" />}
 \address{<xsl:value-of select="cv:address/cv:street"/>}{<xsl:value-of select="cv:address/cv:zipcode"/>}{<xsl:value-of select="cv:address/cv:city"/>}
 \mobile{<xsl:value-of select="cv:mobile"/>}
