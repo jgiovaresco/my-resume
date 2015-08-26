@@ -32,7 +32,7 @@
 	<!-- Personal Informations -->
 	<xsl:template match="cv:personal">
 \name{<xsl:value-of select="cv:firstname" />}{<xsl:value-of select="cv:lastname" />}
-\address{<xsl:value-of select="cv:address/cv:street"/>}{<xsl:value-of select="cv:address/cv:zipcode"/>&#160;<xsl:value-of select="cv:personal/cv:address/cv:city"/>}
+\address{<xsl:value-of select="cv:address/cv:street"/>}{<xsl:value-of select="cv:address/cv:zipcode"/>}{<xsl:value-of select="cv:address/cv:city"/>}
 \mobile{<xsl:value-of select="cv:mobile"/>}
 \email{<xsl:value-of select="cv:email"/>}
 <xsl:for-each select="cv:webAddress/cv:www">
