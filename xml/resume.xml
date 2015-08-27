@@ -17,7 +17,7 @@
 		<webAddress>
 			<www name="julien.giovaresco.fr" type="homepage" url="julien.giovaresco.fr"/>
 			<www name="Github" type="github" url="www.github.com/jgiovaresco"/>
-			<www name="LinkedIn" type="linkedin" url="www.linkedin.com/profile/view?id=16726598"/>
+			<www name="LinkedIn" type="linkedin" url="www.linkedin.com/in/jgiovaresco"/>
 		</webAddress>
 		<comment>Célibataire - 30ans - permis B</comment>
 	</personal>
@@ -92,22 +92,18 @@
 				<www>www.bull.com</www>
 			</company>
 			<description>
-				Missions :
-				<list>
-					<item>Conception et développement d'applications pour le compte de Pôle Emploi.</item>
-					<item>Conseil, accompagnement, définition des bonnes pratiques pour le développement d'application avec AngularJS</item>
-				</list>
-				Responsabilités au sein de l'équipe
+				Missions de conception et développement d'applications, de conseil, d'accompagnement et de définition des bonnes pratiques pour le développement d'application. <newline />
+				<underline>Responsabilités</underline>
 				<list>
 					<item>Architecture, conception et développement</item>
 					<item>Référent technique</item>
 					<item>Mise en place de méthodes XP : intégration continue, automatisation de tests, TDD</item>
 				</list>
-				Environnement
+				<underline>Environnement</underline>
 				<list>
-					<item>Agile avec SCRUM</item>
+					<item>Equipe Agile avec SCRUM de 4 à 6 personnes</item>
 					<item>Compétences : Java, Javascript, HTML5/CSS3, Subversion, GIT, Maven, Weblogic</item>
-					<item>Frameworks : Spring, Jersey, Axis2, AngularJS</item>
+					<item>Frameworks : Spring, Jersey, Axis2, Tapestry5, AngularJS</item>
 				</list>
 			</description>
 			<missions>

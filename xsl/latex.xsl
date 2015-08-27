@@ -32,7 +32,7 @@
 
 	<!-- Personal Informations -->
 	<xsl:template match="cv:personal">
-\photo[64pt][0.4pt]{myface.jpg}
+\photo[64pt][0pt]{myface.jpg}
 \name{<xsl:value-of select="cv:firstname" />}{<xsl:value-of select="cv:lastname" />}
 \address{<xsl:value-of select="cv:address/cv:street"/>}{<xsl:value-of select="cv:address/cv:zipcode"/>}{<xsl:value-of select="cv:address/cv:city"/>}
 \mobile{<xsl:value-of select="cv:mobile"/>}
@@ -100,8 +100,9 @@
 		<xsl:copy-of select="@*" /><xsl:apply-templates />
 	</xsl:template>
 
+	<xsl:template match="cv:newline">\newline{}</xsl:template>
+	<xsl:template match="cv:underline">\underline{<xsl:apply-templates />}</xsl:template>
 	<!-- list item -->
 	<xsl:template match="cv:list">\begin{itemize}<xsl:apply-templates />\end{itemize}</xsl:template>
-
 	<xsl:template match="cv:item">\item <xsl:value-of select="normalize-space(.)"/></xsl:template>
 </xsl:stylesheet>

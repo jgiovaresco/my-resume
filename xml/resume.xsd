@@ -174,9 +174,10 @@
 		</sequence>
 	</complexType>
 
-	<complexType name="DetailType" mixed="true">
+	<group name="detailGroup">
 		<sequence>
 			<element name="newline" minOccurs="0" maxOccurs="unbounded"/>
+			<element name="underline" type="string" minOccurs="0" maxOccurs="unbounded"/>
 			<element name="list" minOccurs="0" maxOccurs="unbounded">
 				<complexType>
 					<sequence>
@@ -184,6 +185,12 @@
 					</sequence>
 				</complexType>
 			</element>
+		</sequence>
+	</group>
+
+	<complexType name="DetailType" mixed="true">
+		<sequence>
+			<group ref="tns:detailGroup" maxOccurs="unbounded"/>
 		</sequence>
 	</complexType>
 
