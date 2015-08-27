@@ -265,24 +265,24 @@
 	</experiences>
 	<skills>
 		<skill>
-			<type>Développement</type>
-			<value>Java, Javascript HTML/CSS, C++, PHP</value>
+			<type>Language</type>
+			<value>Java, Javascript, HTML/CSS, PHP, C++</value>
 		</skill>
 		<skill>
 			<type>Outils</type>
-			<value>Maven, Gradle, Jenkins, SonarQube, Yourkit, GruntJS, GulpJS, SVN, Git</value>
+			<value>Maven, Gradle, Jenkins, SonarQube, Yourkit, GulpJS, SVN, Git, Docker</value>
 		</skill>
 		<skill>
 			<type>Frameworks</type>
-			<value>Tapestry5, Spring, Jersey, Axis2, Prototype, AngularJS, Bootstrap</value>
+			<value>Tapestry5, Spring, Jersey, Axis2, AngularJS, Bootstrap</value>
 		</skill>
 		<skill>
 			<type>OS</type>
-			<value>Maitrise des OS GNU/Linux, Connaissances en administration système et réseau</value>
+			<value>Maitrise des OS GNU/Linux, Administration système et réseau</value>
 		</skill>
 		<skill>
 			<type>Méthodologie</type>
-			<value>SCRUM, TDD</value>
+			<value>SCRUM, TDD, DDD</value>
 		</skill>
 		<skill>
 			<type>Base de données</type>
