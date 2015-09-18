@@ -11,8 +11,8 @@
 	<xsl:template match="/">
 \documentclass[a4paper,11pt,sans]{moderncv}
 \moderncvstyle{casual}                             % style options are 'casual' (default), 'classic', 'banking', 'oldstyle' and 'fancy'
-\moderncvcolor{blue}                               % color options 'black', 'blue' (default), 'burgundy', 'green', 'grey', 'orange', 'purple' and 'red'
-\usepackage[top=0.5cm, bottom=2cm, left=0.5cm, right=0.5cm]{geometry}
+\moderncvcolor{burgundy}                               % color options 'black', 'blue' (default), 'burgundy', 'green', 'grey', 'orange', 'purple' and 'red'
+\usepackage[top=1cm, bottom=2.5cm, left=0.5cm, right=0.5cm]{geometry}
 
 \newcommand{\externalhref}[3][color1]{\href{#2}{\color{#1}{\textit{#3}}}}%
 
