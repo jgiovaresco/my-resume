@@ -14,3 +14,7 @@ clean:
 tex:
 	@docker run --rm=true -e USER=$USER -e USERID=$UID -v $(CURDIR):/data --name saxonhe jgiovaresco/saxonhe \
 		-ext:off -s:$(XML_DIR)/$(XML_FILE) -xsl:$(XSL_DIR)/$(XSL_FILE) -o:$(TEX_DIR)/$(TEX_FILE)
+
+pdf: tex
+	@docker run --rm=true -e USER=$USER -e USERID=$UID -v $(CURDIR)/latex:/data --name lualatex jgiovaresco/lualatex \
+		$(TEX_FILE)
