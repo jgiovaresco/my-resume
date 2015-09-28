@@ -2,11 +2,11 @@
 
 ## Prerequisite
 
-  * Luatex
-  * Fontawesome
+  * Docker
+  * Make
 
-On Debian 
+## Generate pdf
 
 ```
-apt-get install luatex fonts-font-awesome  
+make pdf
 ```
