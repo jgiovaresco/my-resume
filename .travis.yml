@@ -1,0 +1,20 @@
+sudo: required
+
+services:
+  - docker
+
+env:
+  global:
+    - secure: "C03ItVIE5u4aYxX1eGCkLh6mwhOlYUV+prPgxnruRZZ2jJeZIvLMVbSPAFxCESeFF+t3MyhcTsver9LsU50I1+9kP9wnorutb0jZQwsisWS43/apB6MBgWwJur7akBPkl9NOzK3ACyJiYlC9cCPbhlwzYQCRdGWSmIqjQgJZ8BqKFlPUD9pE0zUiV1VsYE3LzqbrulyzXaGKPbKKADb8g6AiaZErV1Sx03NuLjjl/2eIPuj/vO0tXiBQcNJO6VPhHkecG8il3sRuqWnIEqrLl6jTLwnz8YWV+fJ43gNHfhRY/tGvdi1AvbXR+D04GcruJbbOqaLcWsMZNSMftTonmrzfa1EvRSo9ZBpGhVxIQR1TECFkj+cI1wICuce9TF4nOpU2v/cyjFqD52trZUjSI2PU8K0LN7BW5Lb0GZAB1mUv1KR7zjiK9N2aPZcgFzpR1XzwYaV9PClfaZVrQdTOeDv31+08myinFysuuOMft+NzhjBAPSkI6xOfRGmsSffCmMpve3ymkPx/Z+QrkJ5faH8Us7vY1xeOb3MU8fmjFMgh9n64rLZpQwfVQVXThUyLa5sC+5sH1a8JJUEOEdKkGnI7UOO8YR9o285YEYSX00nmKrcfozHJ2UVqYE5wGGz/lQxNXe+9x7eIOSJztWxoTYNG/lnJUZx/Tx30dt22mEo="
+    - secure: "Jy31Bc/mNCpJ6dAoxUKvLRAeymcEiupN1MVrNNPp5bwRb1ILV7WrlvU5ZAfthFmo4e3Ztz2NRkw2l1+GRS7Q+n7ANYZfn9PcPQGBqfcZnpLqqzrpWu8TRuMUGxBhttn1bv7aXioQRpCEPpiyD6TkPMsVSRwN6QMugVFEA6CN4ZHijAvVze/5C7wRx/L+3aO7oZN4VyCDfaDIS+7GNO/oZbhmY2lPdbTdmgLg210K0V6YtQ8y7kZsL338qXfWa3buOTrN2Uoo+zIxCJjG4xqG/hGkrRd09kq5AL/4WxFMHw3CD1HboT6PCfzXRSCAdasvAi1PNQb80zla0CnCEUYkp3IkutyAvCKL3ZIAqY6uoDcaYGE9QSm1gqNBMxJrRocArPX/Ny/+62WcM4bP712p7OPJPHYoC4jjl5NVkTMm6e+oOgK5V9AUx6EgeYyKs5VIUnNSPhlusa6G5OdeRj5JnYSp5SYBT5gUhsFLAh/WDK4F8ldJvjtkSKgt9rV7WigXfZOktySzqBtTHSOL2pMX5SxfAWL5gn3rQvCYPVMzhVgIFjl61sh1UTA1s1ZcFa8SO7d/6nYz8+SBe5Xuxw+xvQKKrUHrtFjQDCV2D18nICse8tijo4u4QKHkGJ4y5KPFOZNxgQrdIK+t33yseh3/HaLPAlsPMNO1NrSZeNAT0nE="
+
+before_install:
+  - chmod go+w  ./latex
+  - ls -al latex
+
+script:
+  - make pdf
+
+
+after_success:
+  - "curl --ftp-create-dirs -T latex/resume.pdf -u $FTP_USER:$FTP_PASSWORD ftp://FTP.giovaresco.fr/"
