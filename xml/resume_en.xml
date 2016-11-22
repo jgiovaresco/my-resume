@@ -1,0 +1,276 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resume xmlns="http://www.giovaresco.fr/resume" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:schemaLocation="http://www.giovaresco.fr/resume resume.xsd ">
+	<personal>
+		<firstname>Julien</firstname>
+		<lastname>Giovaresco</lastname>
+		<address>
+			<street>16 rue Saint Exupéry</street>
+			<zipcode>38400</zipcode>
+			<city>Saint Martin d'Hères</city>
+			<country>France</country>
+		</address>
+		<phone>+339 54 87 86 31</phone>
+		<mobile>+336 26 48 84 39</mobile>
+		<email>julien@giovaresco.fr</email>
+		<email_www>contactme@giovaresco.fr</email_www>
+		<webAddress>
+			<www name="julien.giovaresco.fr" type="homepage" url="julien.giovaresco.fr"/>
+			<www name="Github" type="github" url="www.github.com/jgiovaresco"/>
+			<www name="LinkedIn" type="linkedin" url="www.linkedin.com/in/jgiovaresco"/>
+		</webAddress>
+		<comment>Single - 30 years old - Driving licence</comment>
+	</personal>
+	<title>
+		<profession>Software Developer</profession>
+		<presentation>
+			Passionate about Software development, I've been practicing this discipline for 8 years. Curious, I can work on various fields : front-end, back-end, architecture, methodology, system administration.
+			<newline/>
+			Being always looking for better tools and better ways to be more efficient, I like to learn, exchange and work with others passionates professionals.
+		</presentation>
+	</title>
+	<educations>
+		<education>
+			<year>2007</year>
+			<certificate>Master of Engineering in Computer Sciences</certificate>
+			<speciality>Computer Networks</speciality>
+			<school>
+				<title>Polytech'Grenoble</title>
+				<www>www.polytech-grenoble.fr</www>
+			</school>
+		</education>
+		<education>
+			<year>2004</year>
+			<certificate>Bachelor's Degree in Computer Sciences</certificate>
+			<school>
+				<title>Joseph Fourier’s University</title>
+				<www>www.ujf-grenoble.fr</www>
+				<city>Grenoble</city>
+			</school>
+		</education>
+	</educations>
+	<trainings>
+		<training>
+			<year>2015</year>
+			<title>AngularJs</title>
+			<organization>
+				<title>MethoTIC Conseil</title>
+				<www>http://www.methotic.com/formation-angularjs</www>
+			</organization>
+		</training>
+		<training>
+			<year>2014</year>
+			<title>Oracle Certified Professional, Java SE 6 Programmer</title>
+			<organization>
+				<title>Oracle</title>
+				<www>http://lc.cx/ZLkd</www>
+			</organization>
+		</training>
+		<training>
+			<year>2011</year>
+			<title>Java optimisation</title>
+			<organization>
+				<title>Bull Formation</title>
+			</organization>
+		</training>
+		<training>
+			<year>2010</year>
+			<title>Web services</title>
+			<organization>
+				<title>Bull Formation</title>
+			</organization>
+		</training>
+	</trainings>
+	<experiences>
+		<experience>
+			<year>2007 - 2016</year>
+			<title>Software engineer</title>
+			<company>
+				<title>Bull</title>
+				<www>www.bull.com</www>
+			</company>
+			<description>
+				Provide object-oriented software design for different government agencies (Pôle Emploi, Conseil d'Etat, ONIAM) with different technologies. <newline />
+				<underline>Achievements Highlights</underline>
+				<list>
+					<item>Software architecture and design</item>
+					<item>Software development</item>
+					<item>Technical leader</item>
+					<item>Responsible for setting up XP methodologies : countinuous integration, automated tests, TDD</item>
+				</list>
+				<underline>Environment</underline>
+				<list>
+					<item>Agile team of 4 to 6 people with SCRUM</item>
+					<item>Skills : Java, Javascript, HTML5/CSS3, Subversion, Git, Maven, Weblogic</item>
+					<item>Frameworks : Spring, Jersey, Axis2, Tapestry5, AngularJS</item>
+				</list>
+			</description>
+			<missions>
+				<mission>
+					<title>Framework PN NG</title>
+					<competences>AngularJS, Javascript, REST, GulpJS</competences>
+					<responsibility>Architecture, design, development, advisory missions</responsibility>
+					<detail>
+						Pole Emploi offers a new technical stack for software development based on AngularJS.
+						<newline/>
+						Mission dealt with
+						<list>
+							<item>best practices definition for software development with AngularJS</item>
+							<item>implementation of commons services for applications (log management, metrology, authentication, ...)
+							</item>
+						</list>
+					</detail>
+				</mission>
+				<mission>
+					<title>IDFIX</title>
+					<competences>REST, Java, Spring, Jersey, Maven, Weblogic</competences>
+					<responsibility>Architecture, design, development, tests</responsibility>
+					<detail>
+						GUI to administrate applications built on Pôle Emploi internal framework. IDFIX allows people to update the configuration without reloading applications.
+						<newline/>
+						Applications subscribe to an administration service when they start. This service allows IDFIX to
+						<list>
+							<item>notify each cluster members of an application with the new configuration.</item>
+							<item>flush out application cache.</item>
+						</list>
+					</detail>
+				</mission>
+				<mission>
+					<title>Bureau Métier</title>
+					<competences>Java, Spring, HTML/CSS, EHCache, Javascript (Prototype, Liveconnect), Maven, Weblogic</competences>
+					<responsibility>Architecture, design, development, tests</responsibility>
+					<detail>
+						Bureau Métier is a portal allowing Pôle Emploi agents to access to their applications. This portal is used daily by 45,000 agents. Features provided by this portal :
+						<list>
+							<item>show to agents only their authorized applications.</item>
+							<item>handle the application startup using different versions of the Pôle Emploi internal framework.</item>
+							<item>provide printing functionality for all applications launched by the portal.</item>
+							<item>handle an inter-applications link in order to hide the user the applications switch when he achieves core operational activities.
+							</item>
+						</list>
+					</detail>
+				</mission>
+				<mission>
+					<title>Notification server DISI.</title>
+					<competences>Java, Spring, HTML/CSS, Maven, Weblogic</competences>
+					<responsibility>Architecture, design, development, tests</responsibility>
+					<detail>
+						Notification server receives alerts on the Information System state to spread them on agents computers. This allows agents to be warned about malfunctions of the Information System in order to unblock the help desk. 
+					</detail>
+				</mission>
+				<mission>
+					<title>Frontal Annuaire</title>
+					<competences>Java, Spring, Axis2, Maven, Weblogic</competences>
+					<responsibility>Architecture, design, development, tests</responsibility>
+					<detail>
+						Server composed of severals webservices allowing Pôle Emploi LDAP directories management. These webservices 
+						<list>
+							<item>allow the 45,000 Pôle Emploi agents to authenticate</item>
+							<item>provide a centralized access to LDAP directories for others applications</item>
+							<item>allow directories management tasks automation (new agent creation, removal, transfert of an agent to another agency...)
+							</item>
+						</list>
+					</detail>
+				</mission>
+				<mission>
+					<title>Framework PN V4</title>
+					<competences>Java, Spring, JSF, AspectJ, EHCache, HTML/CSS, Javascript, Maven, Weblogic</competences>
+					<responsibility>Design, development, tests</responsibility>
+					<detail>
+						PNSLD framework (Presentation Navigation Services Logic and Data) has been created to simplify softwares development by inexperienced people. This framework allows developers to build applications used by the 45,000 agents.
+						This mission dealt on the rewritting of presentation and navigation layers of the framework :
+						<list>
+							<item>
+								Navigation layer provides an engine to link different states of an application. This layer communicates with the second part of the framework (SLD).
+							</item>
+							<item>
+								Presentation layer, based on JSF, allows developers to design user interface. Graphical components (tree view, lists, histograms, ...) are available to make developers job easier.
+							</item>
+						</list>
+					</detail>
+				</mission>
+				<mission>
+					<title>Maintenance of the DGME application : Subventions en ligne.</title>
+					<competences>Java, HTML, PostgreSQL, Yourkit</competences>
+					<responsibility>Development, profiling</responsibility>
+					<detail>
+						Subventions en ligne was an online service created to facilitate relation between governmental administrations and associations. 
+						<newline/>
+						A key-feature of this website was to allow associations to consult a subside registry supplied by financers. This online service covered all steps of a subsidy application.
+					</detail>
+				</mission>
+			</missions>
+		</experience>
+		<experience>
+			<year>2007</year>
+			<title>Internship</title>
+			<company>
+				<title>Orange Business Services ITLabs</title>
+				<www>www.itlabs.fr.orange-business.com</www>
+			</company>
+			<description>
+				Improvement of computerized solution to manage digital radiocommunications.
+			</description>
+			<missions>
+				<mission>
+					<title>Improvement of computerized solution to manage digital radiocommunications.</title>
+					<competences>JavaEE, STRUTS, HTML, Javascript, XML</competences>
+				</mission>
+			</missions>
+		</experience>
+		<experience>
+			<year>2007</year>
+			<title>Winner of junior engineers contest « Open World Challenge »</title>
+			<company>
+				<title>Bull</title>
+				<www>www.bull.com</www>
+			</company>
+			<description>Improvement of Bonita notification system.</description>
+			<missions>
+				<mission>
+					<title>Improvement of Bonita notification system.</title>
+					<competences>JONAS, BPM, Open source, struts, SOAP</competences>
+				</mission>
+			</missions>
+		</experience>
+	</experiences>
+	<skills>
+		<skill>
+			<type>Language</type>
+			<value>Java, Javascript, HTML/CSS, PHP</value>
+		</skill>
+		<skill>
+			<type>Tools</type>
+			<value>Maven, Gradle, Jenkins, SonarQube, Yourkit, GulpJS, SVN, Git, Docker</value>
+		</skill>
+		<skill>
+			<type>Frameworks</type>
+			<value>Tapestry5, Spring, Jersey, Axis2, AngularJS, Bootstrap</value>
+		</skill>
+		<skill>
+			<type>OS</type>
+			<value>Mastery of GNU/Linux, System and Network administration</value>
+		</skill>
+		<skill>
+			<type>Methodology</type>
+			<value>SCRUM, TDD, DDD</value>
+		</skill>
+		<skill>
+			<type>Databases</type>
+			<value>PostgreSQL, Oracle, MySQL</value>
+		</skill>
+	</skills>
+	<hobbies>
+		<hobby>Aikido</hobby>
+		<hobby>Hiking</hobby>
+		<hobby>Archery</hobby>
+		<hobby>Mountain bike</hobby>
+		<hobby>Crossfit</hobby>
+	</hobbies>
+	<languages>
+		<language>
+			<name>English</name>
+			<level>Advanced in written and spoken (TOEIC 2006 : 830)</level>
+		</language>
+	</languages>
+</resume>
