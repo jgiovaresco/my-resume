@@ -17,4 +17,4 @@ script:
 
 
 after_success:
-  - "curl --ftp-create-dirs -T latex/resume.pdf -u $FTP_USER:$FTP_PASSWORD ftp://FTP.giovaresco.fr/"
+  - "curl --ftp-create-dirs -T latex/resume_fr.pdf -u $FTP_USER:$FTP_PASSWORD ftp://FTP.giovaresco.fr/"

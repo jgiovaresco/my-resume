@@ -1,18 +1,18 @@
 
 XML_DIR=xml
-XML_FILE=resume.xml
+XML_FILE=resume_fr.xml
 
 XSL_DIR=xsl
-XSL_FILE=latex.xsl
+XSL_FILE=latex_fr.xsl
 
 TEX_DIR=latex
-TEX_FILE=resume.tex
+TEX_FILE=resume_fr.tex
 
 default: clean pdf
 
 clean:
 	@echo "------> Cleanning files"
-	@cd latex; rm -f resume.*
+	@cd latex; rm -f resume_fr.*
 
 tex:
 	@echo "------> Generates tex file"
