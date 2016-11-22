@@ -8,5 +8,5 @@
 ## Generate pdf
 
 ```
-make pdf
+make pdf LANG=en|fr
 ```

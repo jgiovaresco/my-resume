@@ -13,8 +13,10 @@ before_install:
   - ls -al latex
 
 script:
-  - make pdf
+  - make pdf LANG=fr
+  - make pdf LANG=en
 
 
 after_success:
   - "curl --ftp-create-dirs -T latex/resume_fr.pdf -u $FTP_USER:$FTP_PASSWORD ftp://FTP.giovaresco.fr/"
+  - "curl --ftp-create-dirs -T latex/resume_en.pdf -u $FTP_USER:$FTP_PASSWORD ftp://FTP.giovaresco.fr/"
