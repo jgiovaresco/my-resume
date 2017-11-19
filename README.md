@@ -5,7 +5,7 @@
   * Docker
   * Make
 
-## Generate pdf
+## Generate pdf
 
 ```
 make pdf LANG=en|fr
