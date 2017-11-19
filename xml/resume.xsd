@@ -130,6 +130,7 @@
 			<element name="speciality" type="string" minOccurs="0" maxOccurs="1"/>
 			<element name="school" type="tns:OrganizationType"/>
 		</sequence>
+		<attribute name="abstract" type="boolean" />
 	</complexType>
 
 	<complexType name="OrganizationType">
@@ -152,7 +153,7 @@
 			<element name="title" type="string"/>
 			<element name="company" type="tns:OrganizationType"/>
 			<element name="description" type="tns:DetailType" minOccurs="0" />
-			<element name="missions">
+			<element name="missions" minOccurs="0">
 				<complexType>
 					<sequence>
 						<element name="mission" type="tns:MissionType" minOccurs="1" maxOccurs="unbounded"/>
@@ -160,6 +161,7 @@
 				</complexType>
 			</element>
 		</sequence>
+		<attribute name="abstract" type="boolean" />
 	</complexType>
 
 	<complexType name="MissionType">
@@ -214,6 +216,7 @@
 			<element name="description" type="string" minOccurs="0" maxOccurs="1"/>
 			<element name="organization" type="tns:OrganizationType" minOccurs="0" maxOccurs="1"/>
 		</sequence>
+		<attribute name="abstract" type="boolean" />
 	</complexType>
 
 	<complexType name="LanguageType">

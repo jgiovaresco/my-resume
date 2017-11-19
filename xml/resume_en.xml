@@ -10,7 +10,6 @@
 			<city>Saint Martin d'Hères</city>
 			<country>France</country>
 		</address>
-		<phone>+339 54 87 86 31</phone>
 		<mobile>+336 26 48 84 39</mobile>
 		<email>julien@giovaresco.fr</email>
 		<email_www>contactme@giovaresco.fr</email_www>
@@ -19,18 +18,18 @@
 			<www name="Github" type="github" url="www.github.com/jgiovaresco"/>
 			<www name="LinkedIn" type="linkedin" url="www.linkedin.com/in/jgiovaresco"/>
 		</webAddress>
-		<comment>Single - 30 years old - Driving licence</comment>
+		<comment>Single - 33 years old - Driving licence</comment>
 	</personal>
 	<title>
 		<profession>Software Developer</profession>
 		<presentation>
-			Passionate about Software development, I've been practicing this discipline for 8 years. Curious, I can work on various fields : front-end, back-end, architecture, methodology, system administration.
+			Passionate about Software development, I've been practicing this discipline for 10 years. Curious, I can work on various fields : front-end, back-end, architecture, methodology, system administration.
 			<newline/>
 			Being always looking for better tools and better ways to be more efficient, I like to learn, exchange and work with others passionates professionals.
 		</presentation>
 	</title>
 	<educations>
-		<education>
+		<education abstract="true">
 			<year>2007</year>
 			<certificate>Master of Engineering in Computer Sciences</certificate>
 			<speciality>Computer Networks</speciality>
@@ -50,7 +49,7 @@
 		</education>
 	</educations>
 	<trainings>
-		<training>
+		<training abstract="true">
 			<year>2015</year>
 			<title>AngularJs</title>
 			<organization>
@@ -58,7 +57,7 @@
 				<www>http://www.methotic.com/formation-angularjs</www>
 			</organization>
 		</training>
-		<training>
+		<training abstract="true">
 			<year>2014</year>
 			<title>Oracle Certified Professional, Java SE 6 Programmer</title>
 			<organization>
@@ -82,7 +81,44 @@
 		</training>
 	</trainings>
 	<experiences>
-		<experience>
+		<experience abstract="true">
+			<year>Since 2016</year>
+			<title>Software engineer</title>
+			<company>
+				<title>Leadformance</title>
+				<www>https://www.leadformance.com/</www>
+			</company>
+			<description>
+				Maintenance of Ruby on Rails application BRIDGEv2. <newline />
+				Development of the new version BRIDGEv3 based on Microservices architecture written in NodeJS/AngularJS and deployed using Docker/Kubernetes in AWS cloud.<newline />
+				<underline>Achievements Highlights</underline>
+				<list>
+					<item>Implementation of the SSO solution using Keycloak</item>
+					<item>Development of Presence Management features of BRIDGE (GMB, Pages Jaunes, ...)</item>
+					<item>Internationalization of the platform</item>
+				</list>
+				<underline>Environment</underline>
+				<list>
+					<item>4 SCRUM teams (2 to 5 members)</item>
+					<item>Dev skills: Ruby on Rails, NodeJS, Symfony, AngularJS, GIT, Cucumber</item>
+					<item>Ops skills: AWS, Docker, Kubernetes, Puppet</item>
+				</list>
+			</description>
+			<missions>
+				<mission>
+					<title>Maintenance BRIDGE V2 application</title>
+					<competences>Ruby on Rails, Git, Puppet, Postgres, AWS</competences>
+				</mission>
+				<mission>
+					<title>Development of the new version BRIDGE V3</title>
+					<competences>NodeJS, Symfony, AngularJS, Git, Cucumber, Docker, Kubernetes, AWS</competences>
+					<detail>
+						Rewrite of BRIDGE application based on Microservices architecture written in NodeJS/AngularJS and deployed using Docker/Kubernetes in AWS cloud
+					</detail>
+				</mission>
+			</missions>
+		</experience>
+		<experience abstract="true">
 			<year>2007 - 2016</year>
 			<title>Software engineer</title>
 			<company>
@@ -237,35 +273,36 @@
 	<skills>
 		<skill>
 			<type>Language</type>
-			<value>Java, Javascript, HTML/CSS, PHP</value>
+			<value>Java, Javascript, Ruby, Elixir, HTML/CSS, PHP, C++</value>
 		</skill>
 		<skill>
-			<type>Tools</type>
-			<value>Maven, Gradle, Jenkins, SonarQube, Yourkit, GulpJS, SVN, Git, Docker</value>
+			<type>Outils</type>
+			<value>Maven, Gradle, Jenkins, SonarQube, Yourkit, Webpack, Git, Docker</value>
 		</skill>
 		<skill>
 			<type>Frameworks</type>
-			<value>Tapestry5, Spring, Jersey, Axis2, AngularJS, Bootstrap</value>
+			<value>Ruby on Rails, Spring, Express, AngularJS, React, Bootstrap</value>
 		</skill>
 		<skill>
 			<type>OS</type>
-			<value>Mastery of GNU/Linux, System and Network administration</value>
+			<value>GNU/Linux, MacOS, Administration système et réseau</value>
 		</skill>
 		<skill>
-			<type>Methodology</type>
+			<type>Méthodologie</type>
 			<value>SCRUM, TDD, DDD</value>
 		</skill>
 		<skill>
-			<type>Databases</type>
-			<value>PostgreSQL, Oracle, MySQL</value>
+			<type>Base de données</type>
+			<value>Oracle, MySQL, PostgresSQL, MongoDB</value>
 		</skill>
 	</skills>
 	<hobbies>
+		<hobby>Crossfit</hobby>
+		<hobby>Badminton</hobby>
 		<hobby>Aikido</hobby>
 		<hobby>Hiking</hobby>
 		<hobby>Archery</hobby>
 		<hobby>Mountain bike</hobby>
-		<hobby>Crossfit</hobby>
 	</hobbies>
 	<languages>
 		<language>
