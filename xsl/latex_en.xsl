@@ -2,7 +2,7 @@
 <xsl:stylesheet version="2.0"
 	xmlns="http://www.giovaresco.fr/resume"
 	xmlns:xsl="http://www.w3.org/1999/XSL/Transform"
-	xmlns:cv="http://www.giovaresco.fr/resume" 
+	xmlns:cv="http://www.giovaresco.fr/resume"
 	>
 
 	<xsl:output method="text" indent="no" />

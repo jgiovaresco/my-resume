@@ -2,7 +2,7 @@
 <xsl:stylesheet version="2.0"
 	xmlns="http://www.giovaresco.fr/resume"
 	xmlns:xsl="http://www.w3.org/1999/XSL/Transform"
-	xmlns:cv="http://www.giovaresco.fr/resume" 
+	xmlns:cv="http://www.giovaresco.fr/resume"
 	>
 
 	<xsl:output method="text" indent="no" />
@@ -71,7 +71,7 @@
 	<!-- Professional experiences -->
 	<xsl:template match="cv:experiences">
 
-\section{Experiences}
+\section{Expériences}
 <xsl:for-each select="cv:experience[@abstract='true']">\cventry{<xsl:value-of select="cv:year"/>}{<xsl:value-of select="cv:title"/>}{<xsl:value-of select="cv:company/cv:title"/>}{}{}{<xsl:apply-templates select="cv:description" /> }
 </xsl:for-each>
 	</xsl:template>
