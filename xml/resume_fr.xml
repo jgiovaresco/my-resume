@@ -95,15 +95,15 @@
 				Développement de la nouvelle version BRIDGE V3 basée sur une architecture Microservices développée avec NodeJS/Angular et déployée avec Docker/Kubernetes dans le cloud AWS.<newline />
 				<underline>Responsabilité</underline>
 				<list>
-					<item>Mise en place de la solution SSO avec Keycloak</item>
+					<item>Mise en place et maintenance de la CI</item>
 					<item>Développement des features Presence Management de la solution BRIDGE (GMB, Pages Jaunes, ...)</item>
-					<item>Internationalisation de la plateforme</item>
+					<item>Technical leader</item>
 				</list>
 				<underline>Environnement</underline>
 				<list>
-					<item>4 équipes SCRUM de 2 à 5</item>
-					<item>Compétences Dev: Ruby on Rails, NodeJS, Symfony, AngularJS, Git, Cucumber</item>
-					<item>Compétences Ops: AWS, Docker, Kubernetes, Puppet</item>
+					<item>4 équipes SCRUM de 3 à 5</item>
+					<item>Compétences Dev: Ruby on Rails, NodeJS, TypeScript, Angular, Git, Cucumber</item>
+					<item>Compétences Ops: AWS, Docker, Kubernetes, Puppet</item>
 				</list>
 			</description>
 			<missions>
@@ -298,7 +298,7 @@
 	<skills>
 		<skill>
 			<type>Language</type>
-			<value>Java, Javascript, Ruby, Elixir, HTML/CSS, PHP, C++</value>
+			<value>Java, TypeScript, Ruby, Elixir, Go, HTML/CSS, PHP</value>
 		</skill>
 		<skill>
 			<type>Outils</type>
@@ -306,11 +306,11 @@
 		</skill>
 		<skill>
 			<type>Frameworks</type>
-			<value>Ruby on Rails, Spring, Express, AngularJS, React, Bootstrap</value>
+			<value>Ruby on Rails, Spring, Express, NestJS, Angular, React, Bootstrap</value>
 		</skill>
 		<skill>
 			<type>OS</type>
-			<value>GNU/Linux, MacOS, Administration système et réseau</value>
+			<value>GNU/Linux, MacOS</value>
 		</skill>
 		<skill>
 			<type>Méthodologie</type>

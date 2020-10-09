@@ -23,9 +23,9 @@
 	<title>
 		<profession>Software Developer</profession>
 		<presentation>
-			Passionate about Software development, I've been practicing this discipline for 10 years. Curious, I can work on various fields : front-end, back-end, architecture, methodology, system administration.
+			Passionate about Software development, I've been practicing this discipline for ten years. Curious, I can work on various fields : front-end, back-end, architecture, methodology, system administration.
 			<newline/>
-			Being always looking for better tools and better ways to be more efficient, I like to learn, exchange and work with others passionates professionals.
+            Looking for better tools and better ways to be more efficient, I like to learn, exchange, and work with other passionate professionals.
 		</presentation>
 	</title>
 	<educations>
@@ -90,18 +90,19 @@
 			</company>
 			<description>
 				Maintenance of Ruby on Rails application BRIDGEv2. <newline />
-				Development of the new version BRIDGEv3 based on Microservices architecture written in NodeJS/AngularJS and deployed using Docker/Kubernetes in AWS cloud.<newline />
+				Development of the new version BRIDGEv3 based on Microservices architecture written in NodeJS/AngularJS and deployed using Docker/Kubernetes in AWS cloud.<newline />
 				<underline>Achievements Highlights</underline>
 				<list>
 					<item>Implementation of the SSO solution using Keycloak</item>
 					<item>Development of Presence Management features of BRIDGE (GMB, Pages Jaunes, ...)</item>
-					<item>Internationalization of the platform</item>
+                    <item>Setting up and maintaining Jenkins CI</item>
+                    <item>Technical leader</item>
 				</list>
 				<underline>Environment</underline>
 				<list>
 					<item>4 SCRUM teams (2 to 5 members)</item>
-					<item>Dev skills: Ruby on Rails, NodeJS, Symfony, AngularJS, GIT, Cucumber</item>
-					<item>Ops skills: AWS, Docker, Kubernetes, Puppet</item>
+					<item>Dev skills: Ruby on Rails, NodeJS, TypeScript, Angular, Git, Cucumber</item>
+					<item>Ops skills: AWS, Docker, Kubernetes, Puppet</item>
 				</list>
 			</description>
 			<missions>
@@ -113,7 +114,7 @@
 					<title>Development of the new version BRIDGE V3</title>
 					<competences>NodeJS, Symfony, AngularJS, Git, Cucumber, Docker, Kubernetes, AWS</competences>
 					<detail>
-						Rewrite of BRIDGE application based on Microservices architecture written in NodeJS/AngularJS and deployed using Docker/Kubernetes in AWS cloud
+						Rewrite of BRIDGE application based on Microservices architecture written in NodeJS/AngularJS and deployed using Docker/Kubernetes in AWS cloud
 					</detail>
 				</mission>
 			</missions>
@@ -132,7 +133,7 @@
 					<item>Software architecture and design</item>
 					<item>Software development</item>
 					<item>Technical leader</item>
-					<item>Responsible for setting up XP methodologies : countinuous integration, automated tests, TDD</item>
+					<item>Responsible for setting up XP methodologies : countinuous integration, automated tests, TDD</item>
 				</list>
 				<underline>Environment</underline>
 				<list>
@@ -191,7 +192,7 @@
 					<competences>Java, Spring, HTML/CSS, Maven, Weblogic</competences>
 					<responsibility>Architecture, design, development, tests</responsibility>
 					<detail>
-						Notification server receives alerts on the Information System state to spread them on agents computers. This allows agents to be warned about malfunctions of the Information System in order to unblock the help desk. 
+						Notification server receives alerts on the Information System state to spread them on agents computers. This allows agents to be warned about malfunctions of the Information System in order to unblock the help desk.
 					</detail>
 				</mission>
 				<mission>
@@ -199,7 +200,7 @@
 					<competences>Java, Spring, Axis2, Maven, Weblogic</competences>
 					<responsibility>Architecture, design, development, tests</responsibility>
 					<detail>
-						Server composed of severals webservices allowing Pôle Emploi LDAP directories management. These webservices 
+						Server composed of severals webservices allowing Pôle Emploi LDAP directories management. These webservices
 						<list>
 							<item>allow the 45,000 Pôle Emploi agents to authenticate</item>
 							<item>provide a centralized access to LDAP directories for others applications</item>
@@ -226,11 +227,11 @@
 					</detail>
 				</mission>
 				<mission>
-					<title>Maintenance of the DGME application : Subventions en ligne.</title>
+					<title>Maintenance of the DGME application : Subventions en ligne.</title>
 					<competences>Java, HTML, PostgreSQL, Yourkit</competences>
 					<responsibility>Development, profiling</responsibility>
 					<detail>
-						Subventions en ligne was an online service created to facilitate relation between governmental administrations and associations. 
+						Subventions en ligne was an online service created to facilitate relation between governmental administrations and associations.
 						<newline/>
 						A key-feature of this website was to allow associations to consult a subside registry supplied by financers. This online service covered all steps of a subsidy application.
 					</detail>
@@ -273,26 +274,26 @@
 	<skills>
 		<skill>
 			<type>Language</type>
-			<value>Java, Javascript, Ruby, Elixir, HTML/CSS, PHP, C++</value>
-		</skill>
-		<skill>
-			<type>Outils</type>
-			<value>Maven, Gradle, Jenkins, SonarQube, Yourkit, Webpack, Git, Docker</value>
+			<value>Java, TypeScript, Ruby, Go, PHP</value>
 		</skill>
 		<skill>
 			<type>Frameworks</type>
-			<value>Ruby on Rails, Spring, Express, AngularJS, React, Bootstrap</value>
+			<value>Ruby on Rails, Spring, Express, NestJS, Angular, React</value>
 		</skill>
 		<skill>
-			<type>OS</type>
-			<value>GNU/Linux, MacOS, Administration système et réseau</value>
+			<type>Tools</type>
+			<value>Maven, Gradle, Jenkins, SonarQube, Yourkit, Webpack, Git, Docker</value>
 		</skill>
+        <skill>
+            <type>Infra</type>
+            <value>AWS, Kubernetes, Helm, GNU/Linux</value>
+        </skill>
 		<skill>
-			<type>Méthodologie</type>
+			<type>Methodology</type>
 			<value>SCRUM, TDD, DDD</value>
 		</skill>
 		<skill>
-			<type>Base de données</type>
+			<type>Databases</type>
 			<value>Oracle, MySQL, PostgresSQL, MongoDB</value>
 		</skill>
 	</skills>
